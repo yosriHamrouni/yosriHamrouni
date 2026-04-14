@@ -9,7 +9,7 @@ I'm a passionate and detail-oriented **Computer Science Engineering student** sp
 I enjoy building intuitive interfaces, scalable backend systems, and intelligent solutions.  
 Recently, I completed an **academic exchange at CESI Engineering School (Caen, France)** to strengthen my expertise in cloud technologies and software architecture.
 
-🎯 **Currently seeking a Final-Year Internship (PFE)** where I can contribute to impactful digital products.
+🎯 **Currently I am working on my Final-Year Internship (PFE)** where I can contribute to impactful digital products.
 
 ---
 
