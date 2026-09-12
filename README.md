@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Yosri Hamrouni 👋</h1>
 
 <p align="center">
-  <strong>Software Engineering Graduate | Full-Stack Developer | AI Enthusiast</strong>
+  <strong>Full-Stack Developer | React · Laravel · Java/Spring</strong>
 </p>
 
 <p align="center">
@@ -15,22 +15,41 @@
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-I'm a passionate and detail-oriented **Software Engineering student and Full-Stack Developer** specialized in **Web Development, Software Engineering, Cloud Technologies, and Applied AI**.
+I'm a **Software Engineering graduate and Full-Stack Developer** focused on building modern, maintainable web applications.
 
-I enjoy designing and building complete digital products — from intuitive user interfaces and scalable backend architectures to intelligent features powered by data and machine learning.
+My main technologies are **React, TypeScript, Laravel, PHP, Java/Spring and REST APIs**, with experience working on real-world and academic software projects.
 
-I recently completed an **academic exchange at CESI Engineering School (Caen, France)**, where I strengthened my knowledge of software architecture, cloud technologies, and modern development practices.
+I recently completed an **academic exchange at CESI Engineering School in Caen, France**, which strengthened my ability to work in international and French-speaking environments.
 
-🎯 **Currently:** Looking for opportunities to contribute to impactful software products and continue growing as a **Full-Stack Developer / Software Engineer**.
+I'm interested in building reliable software, solving technical problems and continuously improving my development practices.
+
+🎯 **Currently looking for:** Full-Stack Developer / Software Engineer opportunities.
 
 ---
 
-## 🎓 Education
+## 🛠️ Tech Stack
 
-* 🎓 **ESPRIT School of Engineering & Technology** — Software Engineering
-* 🌍 **CESI Engineering School (Caen, France)** — Academic Exchange Program *(Feb 2025 – Jun 2025)*
+### Frontend
+
+`React.js` `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS`
+
+### Backend
+
+`Laravel` `PHP` `Java` `Spring Boot` `ASP.NET Core` `REST APIs`
+
+### Databases
+
+`PostgreSQL` `MySQL` `MongoDB`
+
+### Tools & DevOps
+
+`Git` `GitHub` `Docker` `Linux`
+
+### Additional
+
+`Angular` `Symfony` `Python` `Figma` `UX/UI`
 
 ---
 
@@ -38,75 +57,55 @@ I recently completed an **academic exchange at CESI Engineering School (Caen, Fr
 
 ### 🧑‍💻 Software Development Intern — L-Mobile
 
-*Jul 2024 – Sep 2024 · Nabeul, Tunisia*
+**Jul 2024 – Sep 2024 · Nabeul, Tunisia**
 
-* Developed modules for a **Field Service Management System** using **ASP.NET Core** and **React.js**
+* Developed modules for a **Field Service Management System** using **React.js and ASP.NET Core**
 * Designed and integrated **RESTful APIs** for frontend/backend communication
-* Worked within an **Agile Scrum** development environment
-* Used **Git/GitHub** for version control and collaborative development
+* Worked with **Git/GitHub** in an Agile/Scrum environment
+* Contributed to frontend interfaces and backend business logic
 
 ### 🌐 Web Development Intern — VioreDigital
 
-*2023*
+**2023 · Nabeul, Tunisia**
 
-* Contributed to the development of a **Laravel-based web application**
-* Improved user experience and interface behavior
-* Debugged and optimized application features
-
-### 🎨 UX/UI Design Bootcamp — Space Academy
-
-*Jul 2022 – Aug 2022*
-
-* Designed a responsive **online flower shop**
-* Conducted UX research and heuristic evaluation
-* Performed usability testing across mobile and desktop interfaces
+* Contributed to a **Laravel/PHP web application**
+* Developed and improved application features
+* Worked on user interfaces and application behavior
+* Debugged and maintained existing functionality
 
 ---
 
-# 📌 Featured Projects
+# 🚀 Featured Projects
 
-## 🏫 SaaS School Management Platform
+## 🏫 School Management SaaS
 
-**Full-Stack Web Application · PFE Project · 2025–2026**
+**Full-Stack Web Application · PFE Project · React + Laravel**
 
-A complete **multi-tenant SaaS platform for school management**, designed to centralize academic, administrative, communication, and intelligent student-support workflows.
+A full-stack SaaS platform designed to centralize academic and administrative processes for educational institutions.
 
-### ✨ Highlights
+### Key Features
 
-* 🏢 **Multi-tenant SaaS architecture** with institution-level data isolation
-* 👥 **Role-Based Access Control** for administrators, teachers, students, and parents
-* 📚 Academic management: levels, classes, subjects, academic years and teachers
-* 📝 Grades, evaluations, attendance and assignments
+* 🏢 Multi-tenant architecture
+* 👥 Role-Based Access Control
+* 📚 Classes, subjects, academic years and teachers
+* 📝 Grades, evaluations and attendance
 * 📅 Schedule and timetable management
-* 📊 Academic dashboards and reporting
-* 📄 PDF and Excel data exports
-* 💬 Internal messaging and notifications
-* 💰 Finance management module
-* 🤖 **AI-based student risk detection**
-* 🧠 **Academic AI assistant**
-* 🔐 Authentication, authorization and secure data access
+* 📊 Dashboards and academic reporting
+* 📄 PDF and Excel exports
+* 💬 Messaging and notifications
+* 🔐 Authentication and authorization
 * 🧪 Automated and functional testing
+* 🤖 Experimental intelligent student-support features
 
-### 🛠️ Tech Stack
+### Tech Stack
 
-`Laravel` `PHP` `React` `TypeScript` `Inertia.js` `PostgreSQL` `Tailwind CSS` `Python` `Scikit-Learn`
+`Laravel` `PHP` `React` `TypeScript` `Inertia.js` `PostgreSQL` `Tailwind CSS`
 
-### 🧠 AI Component
-
-The platform includes an intelligent student-support module capable of analyzing academic indicators such as:
-
-* Grades and performance trends
-* Absences
-* Delays
-* Subject performance
-
-The system generates an interpretable **risk score and explanatory reasons**, with a rule-based mechanism serving as the functional reference and an experimental Python/ML component available to complement it.
-
-### 🏗️ Architecture
+### Architecture
 
 ```text
                     ┌──────────────────────┐
-                    │      React / TS      │
+                    │     React / TS       │
                     │     Frontend UI      │
                     └──────────┬───────────┘
                                │
@@ -119,135 +118,159 @@ The system generates an interpretable **risk score and explanatory reasons**, wi
                                │
                     ┌──────────▼───────────┐
                     │      PostgreSQL      │
-                    │    Multi-Tenant DB   │
-                    └──────────────────────┘
-                               │
-                    ┌──────────▼───────────┐
-                    │    Python / AI / ML   │
-                    │ Risk Detection        │
+                    │     Data Layer       │
                     └──────────────────────┘
 ```
 
-### 🎯 What I Worked On
+### What I Worked On
 
-* Designed the application's architecture
-* Implemented the backend with Laravel
-* Developed the frontend using React + TypeScript
-* Implemented role-based authorization
-* Designed the multi-tenant data isolation strategy
-* Developed academic management workflows
-* Integrated AI-assisted student risk detection
+* Designed and implemented backend features with Laravel
+* Developed frontend interfaces with React and TypeScript
+* Implemented authentication and role-based authorization
+* Designed academic management workflows
+* Worked on multi-tenant data isolation
 * Implemented exports, notifications and messaging
-* Developed and tested the complete application
+* Developed and tested application features
 
-🔗 **Repository:** `SaaS School Management Platform`
-
----
-
-## 🧬 AI for Genetic Variant Pathogenicity Prediction
-
-* Built machine learning models to classify genomic mutations as **benign vs pathogenic**
-* Used **Pandas, NumPy, Scikit-Learn**
-* Experimented with **Random Forest, SVM and Logistic Regression**
-* Evaluated models using **Accuracy, F1-score and ROC**
-* Explored **SMOTE**, CNN and LSTM approaches
+🔗 **Repository:** [School Management SaaS](https://github.com/yosriHamrouni/School-Management-SaaS)
 
 ---
 
-## 🎮 2D Game in C with SDL
+## 🛠️ Field Service Management
 
-* Developed a 2D game using **C and SDL**
-* Implemented gameplay mechanics and real-time event handling
-* Worked with graphics, input management and game logic
+**React + ASP.NET Core · Professional Internship Project**
+
+A web-based Field Service Management application developed during my internship at L-Mobile.
+
+### Highlights
+
+* React.js frontend
+* ASP.NET Core backend
+* RESTful APIs
+* Business management modules
+* Git/GitHub
+* Agile/Scrum
+
+🔗 **Repository:** [ServiceField](https://github.com/houyembn/ServiceField)
+
+---
+
+## 🏠 CollocStudy
+
+**JavaFX · Java · MySQL**
+
+A collaborative platform designed around student life and shared resources.
+
+### Features
+
+* 🏠 Student housing
+* 🏢 Coworking spaces
+* 🤝 Shared resources
+* 👥 Student collaboration
+* 💬 Posts and interactions
+
+This project allowed me to strengthen my knowledge of **Java, object-oriented programming, application architecture and database integration**.
+
+🔗 **Repository:** [CollocStudyJava](https://github.com/yosriHamrouni/CollocStudyJava)
+
+---
+
+## 🧬 Genetic Variant Prediction
+
+**Python · Machine Learning**
+
+Academic project focused on predicting whether genetic variants are benign or pathogenic.
+
+### Technologies
+
+`Python` `Pandas` `NumPy` `Scikit-Learn`
+
+### Algorithms
+
+* Logistic Regression
+* Random Forest
+* SVM
+* Experimental CNN/LSTM approaches
+
+The project focused on data preprocessing, model training and evaluation using metrics such as **Accuracy, F1-score and ROC-AUC**.
+
+---
+
+## 🎮 2D Game
+
+**C · SDL**
+
+* Developed a 2D game using C and SDL
+* Implemented real-time event handling
+* Developed gameplay mechanics and game logic
+* Worked with graphics and user input
 
 ---
 
 ## ✈️ Travel Agency Application
 
-**C++ / Qt**
+**C++ · Qt**
 
-* Developed a desktop travel management application
-* Implemented trip planning and reservation workflows
-* Added destination browsing and data management
+Desktop application developed for managing travel-related workflows.
 
----
-
-## 🎤 Artist Booking Website
-
-**PHP / MySQL**
-
-* Developed an online artist reservation platform
-* Implemented database-driven reservation workflows
-* Designed interfaces for managing artists and bookings
+* Trip planning
+* Reservations
+* Destination management
+* Data management
 
 ---
 
-## 🏠 CollocStudy Platform
+# 🎓 Education
 
-**JavaFX + Symfony**
+### ESPRIT — École Supérieure Privée d'Ingénierie et de Technologies
 
-A collaborative student platform combining:
+**Software Engineering / Computer Engineering**
 
-* 🏢 Coworking spaces
-* 🏠 Housing
-* 🤝 Shared resources
-* 👥 Student collaboration
+Tunisia
 
----
+### CESI Engineering School — Caen, France
 
-# 🛠️ Technical Skills
+**Academic Exchange Program**
 
-### 💻 Languages
-
-`Java` `Python` `JavaScript` `TypeScript` `PHP` `C` `C++`
-
-### ⚡ Frameworks & Technologies
-
-`React.js` `Angular` `Laravel` `Symfony` `Spring Boot` `ASP.NET Core` `.NET`
-
-### 🤖 AI / Machine Learning
-
-`Scikit-Learn` `Pandas` `NumPy` `Matplotlib`
-
-### 🗄️ Databases
-
-`PostgreSQL` `MySQL` `MongoDB`
-
-### 🐳 Tools & DevOps
-
-`Git` `GitHub` `Docker` `Linux` `Shell Scripting`
-
-### 🎨 Design
-
-`Figma` `Wireframing` `UX Research`
-
-### 🤝 Soft Skills
-
-`Problem Solving` · `Adaptability` · `Teamwork` · `Autonomy` · `Fast Learning`
+**Feb 2025 – Jun 2025**
 
 ---
 
-# 🌱 Currently Learning & Exploring
+# 🎨 UX/UI
 
-* ☁️ Cloud & DevOps
-* 🏗️ Software Architecture
-* 🤖 Applied AI & Machine Learning
-* 🔐 Secure Web Applications
-* 🚀 Scalable SaaS Architectures
-* 🧩 Distributed Systems
+I also have experience in user-centered design and interface prototyping.
 
----
+**Tools & Methods**
 
-# 📊 GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=yosriHamrouni&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=yosriHamrouni&theme=tokyonight" />
-</p>
+`Figma` `Wireframing` `UX Research` `Usability Testing`
 
 ---
 
-# 🔗 Connect With Me
+# 📚 Certifications
+
+* Meta Front-End Developer
+* Google UX Design
+* AI For Everyone
+* Unix Tools and Scripting
+* Space Academy UX/UI Bootcamp
+
+---
+
+# 🌱 Current Focus
+
+I'm currently focusing on improving my skills in:
+
+* Full-Stack Web Development
+* React & TypeScript
+* Laravel & PHP
+* REST API design
+* SQL & Database Design
+* Software Architecture
+* Testing & Docker
+
+---
+
+# 📫 Connect With Me
 
 <p align="center">
   <a href="mailto:yosri.hamrouni@esprit.tn">
@@ -265,6 +288,4 @@ A collaborative student platform combining:
 
 <p align="center">
   ⭐ Thanks for visiting my profile!
-  <br>
-  Feel free to explore my repositories and connect with me.
 </p>
